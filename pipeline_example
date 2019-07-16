@@ -11,4 +11,17 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            echo "Default message'
+        }
+        success {
+            echo "Nice job"
+        }
+        failure {
+            echo "Uh-oh. Something went wrong."
+        }
+        
+    }
+    
 }
