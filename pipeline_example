@@ -13,13 +13,13 @@ pipeline {
     }
     post {
         always {
-            echo "Default message'
+            echo 'Default message'
         }
         success {
-            echo "Nice job"
+            echo 'Nice job'
         }
         failure {
-            echo "Uh-oh. Something went wrong."
+            echo 'Uh-oh. Something went wrong.'
         }
         
     }
